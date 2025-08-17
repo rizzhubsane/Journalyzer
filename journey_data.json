@@ -1,0 +1,301 @@
+[
+  {
+    "id": "rohanpatel_dc8e59",
+    "type": "message",
+    "timestamp": "2025-01-15T01:43:21.845736Z",
+    "author": "Rohan Patel",
+    "authorRole": "Member",
+    "content": "My Garmin data shows concerning trends mirroring my father's pre-heart attack metrics.  Need a cardiologist referral ASAP. Family history is significant.  Time is of the essence."
+  },
+  {
+    "id": "ruby_e23119",
+    "type": "message",
+    "timestamp": "2025-01-15T03:04:05.718925Z",
+    "author": "Ruby",
+    "authorRole": "Concierge",
+    "content": "Mr. Patel, I understand your concern and the urgency of the situation.  I've already flagged your request and will be forwarding your Garmin data and family history to Dr. Warren immediately for review. You'll receive an update as soon as we hear back from him; likely within the hour."
+  },
+  {
+    "id": "drwarren_a5d1e4",
+    "type": "message",
+    "timestamp": "2025-01-16T04:13:24.189312Z",
+    "author": "Dr. Warren",
+    "authorRole": "Medical Strategist",
+    "content": "Given the patient's reported Garmin data mirroring pre-infarction metrics and significant family history, a comprehensive cardiac diagnostic panel is indicated to establish a definitive baseline.  This will include, but is not limited to,  ECG, cardiac enzyme profile (troponin, CK-MB), lipid panel, and echocardiogram.  Further testing may be required based on initial findings."
+  },
+  {
+    "id": "ruby_b0e409",
+    "type": "message",
+    "timestamp": "2025-02-10T06:00:49.591032Z",
+    "author": "Ruby",
+    "authorRole": "Concierge",
+    "content": "Mr. Patel, Dr. Warren has completed the initial diagnostic panel. He will be contacting you shortly to share a summary of the results."
+  },
+  {
+    "id": "drwarren_ea4d3d",
+    "type": "message",
+    "timestamp": "2025-02-10T07:11:10.007240Z",
+    "author": "Dr. Warren",
+    "authorRole": "Medical Strategist",
+    "content": "Mr. Patel, your cardiac diagnostic panel reveals hypertensive blood pressure (145/95 mmHg), elevated ApoB (115 mg/dL), and increased hs-CRP (3.2 mg/L), indicative of systemic inflammation.  Further evaluation and management are necessary.  A cardiology consultation is scheduled."
+  },
+  {
+    "id": "rohanpatel_b45e64",
+    "type": "message",
+    "timestamp": "2025-02-10T09:07:19.755910Z",
+    "author": "Rohan Patel",
+    "authorRole": "Member",
+    "content": "Immediate plan:  Detailed consultation schedule & actionable lifestyle changes (diet, exercise).  Provide specific next steps and timeline for further testing/intervention.  Quantifiable goals needed."
+  },
+  {
+    "id": "drwarren_f52f55",
+    "type": "decision",
+    "timestamp": "2025-02-11T09:07:19.755910Z",
+    "author": "Dr. Warren",
+    "authorRole": "Medical Strategist",
+    "title": "Initiate Hypertension & Lipid Protocol",
+    "details": "Prescribed Lisinopril 5mg for BP. Initiating nutrition plan with Carla to target ApoB and hs-CRP.",
+    "referencedMessageIds": [
+      "ruby_b0e409",
+      "drwarren_ea4d3d",
+      "rohanpatel_b45e64"
+    ]
+  },
+  {
+    "id": "carla_e94bbb",
+    "type": "message",
+    "timestamp": "2025-02-21T10:34:35.005532Z",
+    "author": "Carla",
+    "authorRole": "Nutritionist",
+    "content": "Hi Rohan, here is the initial nutrition plan. It's a Mediterranean-style diet to lower ApoB and inflammation.  This focuses on whole, unprocessed foods to reduce systemic inflammation (that hs-CRP!), and lower your ApoB levels which contribute to heart disease. We'll address your blood pressure through dietary modifications and other lifestyle strategies too.\n\n**Phase 1:  Building Blocks (Weeks 1-4)**\n\n* **Focus:** Replacing unhealthy habits with healthier alternatives. We're not aiming for perfection, just progress.\n* **Daily:**\n    * **Breakfast:**  Oatmeal with berries and nuts, Greek yogurt with fruit, or eggs with whole-wheat toast and avocado.  Avoid sugary cereals and pastries.\n    * **Lunch:**  Large salad with grilled chicken or fish, lentil soup, or a whole-wheat sandwich with lean protein and vegetables.  Limit processed meats and cheese.\n    * **Dinner:**  Baked salmon with roasted vegetables, chicken stir-fry with brown rice, or vegetarian chili. Emphasize plant-based proteins and healthy fats.\n    * **Snacks:** Fruits, vegetables, nuts, seeds, or plain yogurt. Avoid sugary drinks and processed snacks.\n* **Hydration:** Aim for at least 8 glasses of water daily.  Limit sugary drinks.\n* **Why this matters:**  This foundational phase helps establish healthy eating habits.  We'll build from here.\n\n**Phase 2:  Refinement & Optimization (Weeks 5-8 and beyond):**\n\n* **Focus:** Fine-tuning your diet based on your progress and preferences. We'll address specific challenges and adjust portions based on your response.\n* **We will:**\n    * Track your progress. We'll monitor your ApoB and hs-CRP levels and adjust accordingly.\n    * Incorporate more variety. Once you've built a foundation, we can explore other Mediterranean recipes and flavor profiles.\n    * Address any specific challenges or preferences.\n\n**Key elements of the Mediterranean diet to remember:**\n\n* **Abundant Fruits & Vegetables:**  Aim for at least 5 servings a day.\n* **Whole Grains:**  Choose whole-wheat bread, brown rice, quinoa, etc.\n* **Healthy Fats:** Olive oil, avocados, nuts, and seeds.\n* **Lean Protein:** Fish, poultry, beans, lentils, and nuts.\n* **Limited Red Meat:**  Consume in moderation.\n* **Dairy in Moderation:** Primarily low-fat options.\n\nYour next steps:  Schedule a follow-up appointment in 4 weeks to discuss your progress, adjust the plan as needed, and discuss additional support for behavior change.  We'll also review your blood pressure and lipid panel results at that time.  Keep a food diary to track your intake.  This helps us personalize this plan to your needs.  I\u2019m here to support you every step of the way."
+  },
+  {
+    "id": "rohanpatel_409290",
+    "type": "message",
+    "timestamp": "2025-02-23T11:39:17.498437Z",
+    "author": "Rohan Patel",
+    "authorRole": "Member",
+    "content": "London trip impacts adherence.  Prioritize key elements (whole grains, lean protein at lunch/dinner) during travel.  Quantify achievable daily goals during travel week, then re-assess.  Need concise, travel-friendly modifications."
+  },
+  {
+    "id": "carla_32308c",
+    "type": "message",
+    "timestamp": "2025-02-23T13:43:41.436330Z",
+    "author": "Carla",
+    "authorRole": "Nutritionist",
+    "content": "Hi Rohan,\n\nHere's your Travel Appendix to help you stay on track during your London trip.  Remember, the goal is to maintain consistent intake of lean protein and fiber, not perfection.\n\n**Travel Week (Weeks 5-5):  Prioritized Elements**\n\n* **Focus:**  Maintaining lean protein and fiber intake while traveling.  We'll re-assess upon your return.\n* **Daily Goals:**\n    * **Lean Protein (at least 4 oz total):**  Aim for one good source at lunch and dinner.\n    * **Fiber (at least 25g total):** Prioritize whole grains, fruits, and vegetables where possible.\n* **Lunch:**\n    * **Go-to:**  Large salad with grilled chicken or fish (easily found in most restaurants).  If a salad isn't available, look for options with lentils, beans, or tofu.\n    * **Alternatives:**  Whole-wheat sandwich (specify lean protein & veggies), soup (check for high sodium content).\n* **Dinner:**\n    * **Go-to:** Grilled fish or chicken with steamed vegetables (look for simple preparations).\n    * **Alternatives:**  Chicken or vegetable skewers (avoid high-fat sauces), stir-fry (specify brown rice and plenty of vegetables), lentil-based dishes.\n* **Snacks:** Fruits (apples, bananas), nuts, or plain yogurt (available in most grocery stores or cafes).\n* **Important Considerations:**\n    * **Read labels:** Pay close attention to sodium, sugar, and fat content, especially when eating out.\n    * **Portion control:**  Be mindful of serving sizes, especially with less healthy options.\n    * **Hydration:**  Continue aiming for 8 glasses of water per day.\n\n\nThis is a simplified plan focusing on the most critical aspects of your diet during travel.  We'll discuss your experiences and readjust the plan when you return.  Don't hesitate to reach out if you encounter any difficulties."
+  },
+  {
+    "id": "rachel_efcead",
+    "type": "message",
+    "timestamp": "2025-02-24T15:15:50.941962Z",
+    "author": "Rachel",
+    "authorRole": "PT / Physiotherapist",
+    "content": "Rohan, it's been two weeks. I'm updating your foundational workout plan to include some light dumbbell work now. The new plan is in your app."
+  },
+  {
+    "id": "advik_cda75d",
+    "type": "message",
+    "timestamp": "2025-02-28T17:14:13.183808Z",
+    "author": "Advik",
+    "authorRole": "Performance Scientist",
+    "content": "Weekly Report: Great consistency this week, Rohan. You hit 3/3 planned workouts. Your resting heart rate is already trending down by an average of 2bpm.  This aligns with our hypothesis that increased physical activity would positively impact cardiovascular metrics.  Let's continue monitoring this trend and explore the correlation with other data points such as sleep, recovery, and dietary adherence to refine our intervention strategy.  We can then formulate a more precise hypothesis regarding optimal training load for sustained heart rate reduction."
+  },
+  {
+    "id": "rohanpatel_9db552",
+    "type": "message",
+    "timestamp": "2025-03-03T18:41:45.305387Z",
+    "author": "Rohan Patel",
+    "authorRole": "Member",
+    "content": "London trip next week, 8 days.  Will prioritize plan elements as discussed."
+  },
+  {
+    "id": "rachel_ca6105",
+    "type": "message",
+    "timestamp": "2025-03-03T19:47:47.074873Z",
+    "author": "Rachel",
+    "authorRole": "PT / Physiotherapist",
+    "content": "Thanks for the heads up, Rohan. I'll create a hotel-gym friendly version of your workout plan. It will focus on bodyweight and dumbbell exercises."
+  },
+  {
+    "id": "ruby_39db12",
+    "type": "message",
+    "timestamp": "2025-03-28T21:37:43.289597Z",
+    "author": "Ruby",
+    "authorRole": "Concierge",
+    "content": "Hi Rohan, it's time for your 3-month follow-up diagnostic panel to check our progress."
+  },
+  {
+    "id": "drwarren_5ebbe9",
+    "type": "message",
+    "timestamp": "2025-04-12T23:30:29.225284Z",
+    "author": "Dr. Warren",
+    "authorRole": "Medical Strategist",
+    "content": "Rohan, the results are in. Excellent progress. Your blood pressure is down to 130/85, ApoB has improved to 98 mg/dL, and hs-CRP is down to 1.5 mg/L. The plan is working."
+  },
+  {
+    "id": "drwarren_31ec2f",
+    "type": "decision",
+    "timestamp": "2025-04-13T23:30:29.225284Z",
+    "author": "Dr. Warren",
+    "authorRole": "Medical Strategist",
+    "title": "Continue Protocol & Introduce VO2 Max Testing",
+    "details": "Lifestyle changes and medication are effective. Continue current plan. Next, we will establish a VO2 Max baseline to optimize cardiovascular fitness.",
+    "referencedMessageIds": [
+      "drwarren_5ebbe9"
+    ]
+  },
+  {
+    "id": "ruby_913de7",
+    "type": "message",
+    "timestamp": "2025-04-24T00:36:20.884126Z",
+    "author": "Ruby",
+    "authorRole": "Concierge",
+    "content": "Rohan, Advik would like you to do a VO2 Max test to get a baseline for your cardiovascular fitness. I can schedule it at a top sports lab."
+  },
+  {
+    "id": "rohanpatel_f2075a",
+    "type": "message",
+    "timestamp": "2025-04-24T02:11:07.652061Z",
+    "author": "Rohan Patel",
+    "authorRole": "Member",
+    "content": "Book it."
+  },
+  {
+    "id": "rachel_db573b",
+    "type": "message",
+    "timestamp": "2025-04-28T03:20:49.425198Z",
+    "author": "Rachel",
+    "authorRole": "PT / Physiotherapist",
+    "content": "It's been another two weeks. I'm updating your strength plan to increase the reps on your main lifts. We're building endurance now."
+  },
+  {
+    "id": "advik_45a02e",
+    "type": "message",
+    "timestamp": "2025-05-05T04:30:34.313081Z",
+    "author": "Advik",
+    "authorRole": "Performance Scientist",
+    "content": "VO2 Max of 35 ml/kg/min confirms our initial hypothesis: current fitness levels are within the average range.  This is valuable baseline data.  The goal of >42 ml/kg/min within six months is ambitious but achievable.  The updated cardio plan incorporating targeted interval training represents a testable intervention to improve VO2 Max. We will monitor progress closely and adjust the intensity and volume of interval training based on your recovery metrics (sleep, HRV, RHR from your Whoop/Garmin data) to optimize performance and minimize risk of overtraining.  We will re-evaluate VO2 Max in three months to measure the effectiveness of this intervention.  Success will be defined by a statistically significant increase in VO2 Max, supported by improvements in other relevant physiological markers."
+  },
+  {
+    "id": "advik_0d92eb",
+    "type": "decision",
+    "timestamp": "2025-05-06T04:30:34.313081Z",
+    "author": "Advik",
+    "authorRole": "Performance Scientist",
+    "title": "Implement VO2 Max Improvement Plan",
+    "details": "Based on a VO2 Max score of 35, the cardio regimen will now include one weekly session of high-intensity interval training (HIIT) to drive improvement.",
+    "referencedMessageIds": [
+      "advik_45a02e"
+    ]
+  },
+  {
+    "id": "drwarren_bea4d4",
+    "type": "message",
+    "timestamp": "2025-05-26T06:21:53.452446Z",
+    "author": "Dr. Warren",
+    "authorRole": "Medical Strategist",
+    "content": "To further refine the nutrition plan's impact on ApoB, a two-week Continuous Glucose Monitor (CGM) trial is recommended for data acquisition."
+  },
+  {
+    "id": "rohanpatel_20604b",
+    "type": "message",
+    "timestamp": "2025-05-26T08:01:25.287566Z",
+    "author": "Rohan Patel",
+    "authorRole": "Member",
+    "content": "I'm interested. Let's do it."
+  },
+  {
+    "id": "advik_debd6b",
+    "type": "message",
+    "timestamp": "2025-05-31T09:36:26.593859Z",
+    "author": "Advik",
+    "authorRole": "Performance Scientist",
+    "content": "Weekly Report: Your first week with the CGM has been insightful.  We've observed some interesting post-prandial glucose response patterns which we can use to further refine the dietary plan.  The 10% improvement in sleep consistency this week is also encouraging and likely contributes to the positive trends observed in other metrics. Keep up the excellent work on both diet and sleep hygiene;  this consistent approach is key to long-term success."
+  },
+  {
+    "id": "rohanpatel_c0e1f1",
+    "type": "message",
+    "timestamp": "2025-06-10T10:40:31.919319Z",
+    "author": "Rohan Patel",
+    "authorRole": "Member",
+    "content": "CGM data reveals otherwise.  Quantify future sushi impact; provide alternatives for maintaining similar macros without glucose spike.  Specific dietary adjustments needed."
+  },
+  {
+    "id": "carla_ac32f6",
+    "type": "message",
+    "timestamp": "2025-06-10T12:37:42.736001Z",
+    "author": "Carla",
+    "authorRole": "Nutritionist",
+    "content": "A very common finding! Let's run an experiment: next time, start the meal with edamame first to blunt the glucose spike. We'll compare the data."
+  },
+  {
+    "id": "carla_75aef7",
+    "type": "decision",
+    "timestamp": "2025-06-11T12:37:42.736001Z",
+    "author": "Carla",
+    "authorRole": "Nutritionist",
+    "title": "Modify Meal Sequencing Based on CGM Data",
+    "details": "CGM data revealed a significant glucose spike after eating sushi. The new protocol is to preface carbohydrate-heavy meals with a fiber/protein source (like edamame) to manage glycemic response.",
+    "referencedMessageIds": [
+      "rohanpatel_c0e1f1",
+      "carla_ac32f6"
+    ]
+  },
+  {
+    "id": "rachel_41fd9f",
+    "type": "message",
+    "timestamp": "2025-06-21T14:00:45.681241Z",
+    "author": "Rachel",
+    "authorRole": "PT / Physiotherapist",
+    "content": "Two weeks have passed.  Plan update: Barbell squats replace dumbbell lunges\u2014we're upping the load.  Form tutorial video is in the app. Let's build some serious strength!"
+  },
+  {
+    "id": "advik_e8709e",
+    "type": "message",
+    "timestamp": "2025-07-06T15:48:35.748031Z",
+    "author": "Advik",
+    "authorRole": "Performance Scientist",
+    "content": "Rohan, I was analyzing your wearable data. Your average HRV has increased from a baseline of 42ms to 55ms this month. This is a fantastic sign of improved resilience."
+  },
+  {
+    "id": "rohanpatel_8c3c0f",
+    "type": "message",
+    "timestamp": "2025-07-06T17:11:26.672689Z",
+    "author": "Rohan Patel",
+    "authorRole": "Member",
+    "content": "That's great to see quantified. I do feel less stressed overall."
+  },
+  {
+    "id": "advik_b67d60",
+    "type": "message",
+    "timestamp": "2025-07-26T18:13:21.566800Z",
+    "author": "Advik",
+    "authorRole": "Performance Scientist",
+    "content": "Final Weekly Report for this period: Your consistency with the new HIIT sessions has been 100%. This is directly contributing to the positive trend in your HRV. Excellent work."
+  },
+  {
+    "id": "drwarren_3c087c",
+    "type": "message",
+    "timestamp": "2025-07-31T19:39:54.595168Z",
+    "author": "Dr. Warren",
+    "authorRole": "Medical Strategist",
+    "content": "Rohan, as we close out these 8 months, your key biomarkers are all trending strongly in the right direction. Your blood pressure is well-managed, and your cardiovascular risk profile has significantly improved."
+  },
+  {
+    "id": "rohanpatel_fc29d4",
+    "type": "message",
+    "timestamp": "2025-07-31T22:05:44.073522Z",
+    "author": "Rohan Patel",
+    "authorRole": "Member",
+    "content": "Excellent. I feel the difference. I'm ready to discuss the long-term longevity strategy."
+  },
+  {
+    "id": "ruby_e0b0eb",
+    "type": "message",
+    "timestamp": "2025-07-31T23:34:57.996589Z",
+    "author": "Ruby",
+    "authorRole": "Concierge",
+    "content": "That's wonderful to hear. I'm scheduling the comprehensive progress review with Dr. Warren and your team to outline the strategy for the next year.  You will receive a calendar invite shortly with available times."
+  }
+]
