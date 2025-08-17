@@ -398,7 +398,7 @@ function App() {
        
        {/* Analysis Results */}
        {analysis && analysis.length > 0 && (
-         <>
+         <React.Fragment>
            {/* Statistics Dashboard */}
            {analysisStats && (
              <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-2xl p-8 mb-8 border border-white/20">
@@ -424,7 +424,7 @@ function App() {
                
                <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
                  <div>
-                   <h4 className="font-semibold text-slate-800 mb-2">Care Team ({analysisStats.teamMembers.size} members)</h4>
+                   <h4 className="font-semibold text-slate-800 mb-2">Team Members</h4>
                    <div className="text-sm text-slate-600">
                      {Array.from(analysisStats.teamMembers).join(', ')}
                    </div>
@@ -590,7 +590,7 @@ function App() {
                    {event.detailedAnalysis && (
                      <div className="space-y-4">
                        {event.type === 'decision' && (
-                         <>
+                         <React.Fragment>
                            <div className="bg-white/60 rounded-xl p-4">
                              <h5 className="font-semibold text-slate-800 mb-2">Clinical Reasoning:</h5>
                              <div className="text-sm text-slate-700 whitespace-pre-line">
@@ -620,11 +620,11 @@ function App() {
                                </div>
                              </div>
                            )}
-                         </>
+                         </React.Fragment>
                        )}
                        
                        {event.type === 'milestone' && event.detailedAnalysis.significance && (
-                         <>
+                         <React.Fragment>
                            <div className="bg-white/60 rounded-xl p-4">
                              <h5 className="font-semibold text-slate-800 mb-2">Significance:</h5>
                              <div className="text-sm text-slate-700 whitespace-pre-line">
@@ -645,7 +645,7 @@ function App() {
                                {event.detailedAnalysis.nextSteps.join('\n')}
                              </div>
                            </div>
-                         </>
+                         </React.Fragment>
                        )}
                      </div>
                    )}
@@ -654,8 +654,8 @@ function App() {
              ))}
            </div>
          </div>
+         </React.Fragment>
        )}
-       
        {analysis && analysis.length === 0 && (
          <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-2xl p-16 mt-8 text-center border border-white/20">
            <div className="w-20 h-20 bg-gradient-to-r from-indigo-100 to-purple-100 rounded-full mx-auto mb-6 flex items-center justify-center">
